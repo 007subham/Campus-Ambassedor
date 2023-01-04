@@ -1,0 +1,10 @@
+.nav{
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.738);
+}
+.btn{
+    color: blue;
+}
+.btn:hover{
+    background-color: white;
+    color: blue;
+}
