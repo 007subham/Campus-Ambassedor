@@ -1,5 +1,9 @@
 .nav{
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.738);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.171);
+    position: sticky;
+    top: 0;
+    z-index: 99;
+    
 }
 .btn{
     color: blue;
@@ -7,4 +11,32 @@
 .btn:hover{
     background-color: white;
     color: blue;
+}
+.landingSection{
+    height: 80vh;
+    background-image: url("/images/firstdiv.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: 2rem;
+   
+    
+    
+    
+}
+.landingContent{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem;
+    z-index: 1;
+}
+.landingContent p:first-child
+{
+    font-size: 2.5rem;
+    color: #002f6c;
+    font-weight:600 ;
+    z-index: 1;
+}
+.landingContent button{
+    background-color: #00aced;
+    color: white;
 }
