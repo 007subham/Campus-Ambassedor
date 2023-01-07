@@ -1,14 +1,15 @@
 .nav{
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.171);
-    position: sticky;
     top: 0;
+    position: sticky;
     z-index: 99;
+    background-color: white;
     
 }
-.btn{
+.nav .btn{
     color: blue;
 }
-.btn:hover{
+.nav .btn:hover{
     background-color: white;
     color: blue;
 }
@@ -16,18 +17,20 @@
     height: 80vh;
     background-image: url("/images/firstdiv.webp");
     background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    top: 2rem;
-   
+    background-size: cover; 
     
     
+ 
     
 }
+
+
+
 .landingContent{
     font-family: 'Open Sans', sans-serif;
     font-size: 1.5rem;
     z-index: 1;
+    
 }
 .landingContent p:first-child
 {
@@ -40,3 +43,68 @@
     background-color: #00aced;
     color: white;
 }
+
+/* for tab screen */
+@media screen and (max-width:768px) {
+    .landingSection{
+        height: 40h;
+        background-image: url("/images/firstdiv.webp");
+        background-repeat: no-repeat;
+        background-size: contain; 
+         }
+     .landingContent{
+            font-family: 'Open Sans', sans-serif;
+            font-size: 1.5rem;
+            z-index: 1;
+            
+        }         
+     .landingContent p:first-child{
+
+        font-size: 1.5rem;
+        color: #002f6c;
+        font-weight:400 ;
+        z-index: 1;
+        text-align: left;
+         margin-left:0%;
+        }
+        .top2{
+            margin-top: 40vh;
+        }
+        .btn2{
+            background-color: #00aced;
+        }
+
+    
+}
+/* for mobile screen */
+@media screen and (max-width:576px) {
+    .landingSection{
+        height: 33vh;
+        background-image: url("/images/firstdiv.webp");
+        background-repeat: no-repeat;
+        background-size: contain; 
+         }
+     .landingContent p:first-child{
+
+        font-size: 1rem;
+        color: #002f6c;
+        font-weight:400 ;
+        z-index: 1;
+        text-align: left;
+        margin-left:0%;
+    }
+    .landingContent{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1.5rem;
+        z-index: 1;
+        
+        
+    }
+    .top2{
+        margin-top: 20vh;
+        
+    }
+}
+
+
+
