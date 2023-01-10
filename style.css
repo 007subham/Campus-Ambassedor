@@ -19,9 +19,6 @@
     background-repeat: no-repeat;
     background-size: cover; 
     
-    
- 
-    
 }
 
 
@@ -42,6 +39,31 @@
 .landingContent button{
     background-color: #00aced;
     color: white;
+}
+.p1{
+    font-size: 2rem; 
+    font-weight: 600;
+  border-bottom: 3px solid rgb(182, 232, 182);
+
+}
+.perkBox{
+    margin-left:18% ;
+    margin-right: 18%;
+}
+.perkImg{
+    
+    box-sizing: content-box;
+}
+.work{
+    border-radius: 25px;
+   background-size: cover;
+    background-repeat:no-repeat ;
+    background-position: center;
+    padding: 20px;
+    flex-wrap: wrap;
+     max-height: 90%;
+
+  
 }
 
 /* for tab screen */
@@ -72,6 +94,12 @@
         }
         .btn2{
             background-color: #00aced;
+        }
+        .work{
+            flex-wrap: nowrap;
+            justify-content: flex-start;
+            height: 40%;
+            width:95% ;
         }
 
     
@@ -104,6 +132,11 @@
         margin-top: 20vh;
         
     }
+    .work{
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+    }
+
 }
 
 
